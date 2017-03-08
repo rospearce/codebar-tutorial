@@ -14,3 +14,9 @@ function convertCelsiusToFahrenheit(celsius) {
 	 return fahrenheit.toFixed(1);
 }
 
+function convertKilosToPounds(pounds) {
+  //conversion code
+	var kilos = pounds * 0.4536;
+	return kilos.toFixed(1);
+}
+

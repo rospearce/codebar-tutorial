@@ -12,4 +12,13 @@ describe("Cooking Ingredients Converter", function() {
       expect(result).toEqual('212.0');
     });
   });
+  
+  describe("Weight", function() {
+    it("Kilos to Pounds", function() {
+      var result = convertKilosToPounds(100);
+
+      expect(result).toEqual('45.4');
+    });
+  });
+  
 });
