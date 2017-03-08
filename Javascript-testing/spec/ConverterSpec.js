@@ -6,5 +6,10 @@ describe("Cooking Ingredients Converter", function() {
 
       expect(result).toEqual('37.8');
     });
+    it("Celsius to Fahrenheit", function() {
+      var result = convertCelsiusToFahrenheit(100);
+
+      expect(result).toEqual('212.0');
+    });
   });
 });
